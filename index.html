@@ -4,9 +4,178 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document Adhi</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     
 </body>
+    <header class="main-header">
+        <div class="main-logo"></div>
+
+        <div class="header">
+            <a class="active" href="#home">Home</a>
+            <a href="#our package">Our Package</a>
+            <a href="#call us">Call Us</a>
+        </div>
+    </header>
+        
+    <hr />
+
+    <style>
+        /* @media (width  > 768px) {
+            .main-banner{
+                display: grid;
+                grid-template-columns: auto auto auto;
+                grid-gap: 10px;
+                margin-left: 250px;
+                margin-right: 250px;
+            }
+        } */
+
+  
+       
+    </style>
+
+    <main>
+        <header class="main-article-header">
+            <h1>Your Trusted Travel Agent</h1>
+            <h3>Your happiness is our happiness</h3>
+        </header>
+
+        <div class="main-header" style=" justify-content: center;">
+            <div style="border-style: solid;"> 
+                <div class="banner-autoslide image1"></div>
+                <div class="banner-autoslide image2"></div>
+                <div class="banner-autoslide image3"></div>
+
+                <p>Liburan jadi menyenangkan bersama travel agentku</p>
+
+                <div style="margin-left: 20px;margin-right: 50px;">
+                    <span style="font-weight: bold;">
+                        Use this space to provide users with more information about your offer. Consider it a follow-up to your headline and explain the benefits of your service or produc
+                    </span>
+                </div>
+                <div>
+                    <ul>
+                        <li> Your first feature, written in the form of a benefit statement.</li>
+                        <li> Your second feature, written in the form of a benefit statement.</li>
+                        <li> Your third feature written, in the form of a benefit statement..</li>
+                    </ul>
+                </div>
+                
+            </div>
+            <div style="border-style: solid;padding: 10px;">
+                <h2>Contact Us</h2>
+                <p>Sales akan menghubungi anda 1x24 Jam setelah data kami terima</p>
+                <form action="#">
+                    <!-- NAME -->
+                    <div>
+                        <div>
+                            <label for="username-input" style="font-weight: bolder;"> Your name:</label>
+                        </div>
+                        <div>
+                            <input type="text" id="username-input" name="username-input" required><br><br>
+                        </div>
+                    </div>
+
+                    <!-- EMAIL -->
+                    <div>
+                        <div>
+                            <label for="email" style="font-weight: bolder;">Email:</label>
+                        </div>
+                        
+                        <div>
+                            <input type="text" id="email" name="email" required><br><br>
+                        </div>
+                    </div>
+                   
+                    <!-- OPTION -->
+                     <div>
+                        <label for="option" style="font-weight: bold;">What are you interested in ?</label>  
+                     </div>     
+                     
+                     <div>
+                        <select id="question" style="width: 180px;" >
+                            <option value=""></option>
+                            <option value="option 1">option 1</option>
+                            <option value="option 2">option 2</option>
+                            <option value="option 3">option 3</option>
+                            <option value="option 4">option 4</option>
+                            </select>
+                     </div>
+                    
+                        <button type="button" onclick="nextSlide()">Submit</button> 
+                     
+                  </form>
+
+            </div>
+        </div>
+
+        <!-- Konten Our Package -->
+         <article>
+            <header class="our-package-header">
+                <h1>Our Package</h1>
+            </header>
+
+            <div class="our-package-content">
+                <style>
+                    .grid-container-package {
+                      display: grid;
+                      grid-template-columns: auto auto auto;
+                      grid-gap: 10px;
+                      padding: 10px;
+                    }
+                                    
+                    .item1 {
+                      grid-column: 1 / span 1;
+                    }
+                </style>
+            </div>
+
+            <div class="grid-container-package">
+                <div class="item1">Bali <br> Travel dan wisata di Bali. kunjungi cagar budaya dan kuliner yang menarik.</div>
+                <div class="item2">Japan <br> Travel dan wisata di Japan. kunjungi cagar budaya dan kuliner yang menarik.</div>
+                <div class="item3">Singapore <br> This description supports and extends the bullet point above.</div>  
+                <div class="item4">Bandung <br> This description supports and extends the bullet point above.</div>
+                <div class="item5">Surabaya <br> This description supports and extends the bullet point above.</div>
+                <div class="item6">Third Feature <br> This description supports and extends the bullet point above.</div>
+              </div>
+         </article>
+    </main>
+
+    <main>
+        <header class="your-closing-header">
+            <h1>Your Closing Argument Headline</h1>
+            <p>Suspendisse egestas rhoncus urna in bibendum. Donec urna neque, euismod sed justo quis, convallis tincidunt risus. Phasellus fringilla odio vel erat fringilla, </p>
+        </header>
+    </main>
+    
+    <footer class="main-footer">
+        <div>
+            <div class="footer-logo"></div>
+        </div>
+       
+        <style>
+            .grid-container {
+              display: grid;
+              grid-template-columns: auto auto;
+              grid-gap: 10px;
+              padding: 10px;
+            }
+                            
+            .item1 {
+              grid-column: 1 / span 1;
+            }
+        </style>
+
+        <div class="grid-container">
+             <div class="item1">Terms of Service</div>
+             <div class="item2">Privacy Policy</div>
+        </div>
+        <span>Made by Adhi@2024</span>
+    </footer>
+
+    <script src="js\script.js"></script>
+</body>
+
 </html>

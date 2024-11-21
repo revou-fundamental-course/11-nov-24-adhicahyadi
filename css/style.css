@@ -1,1 +1,141 @@
   /* Ini CSS */
+
+  .main-header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .header {
+    overflow: hidden;
+    background-color: #f1f1f1;
+    padding: 20px 10px;
+  }
+
+  .header a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+  }
+
+  .main-article {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .container-banner {
+    flex: 1;
+  }
+
+  .main-logo {
+    height: 75px;
+    width: 75px;
+    background-image: url(https://picsum.photos/200);
+    background-position: center;
+    border-radius: 50%;
+  }
+
+  nav {
+    display: flex;
+    align-items: center;
+  }
+
+  .navbar {
+    color: black;
+    text-decoration: none;
+    border: 1px solid;
+    padding: 10px;
+  }
+
+  .main-article-header {
+    text-align: center;
+  }
+
+header, main {
+    margin: 32px
+}
+
+  .banner-autoslide {
+    height: 250px;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .image1 {
+    background-image: url(https://picsum.photos/500);
+  }
+
+  .image2 {
+    background-image: url(https://picsum.photos/600);
+  }
+
+  .image3 {
+    background-image: url(https://picsum.photos/700);
+  }
+
+  .our-package-header {
+    text-align: center;
+  }
+
+  .our-package-content {
+    text-align: center;
+  }
+
+  .grid-container-package {
+    text-align: left;
+  }
+
+  .your-closing-header {
+    text-align: center;
+  }
+
+  footer {
+    text-align: center;
+  }
+
+  .footer-logo {
+    height: 75px;
+    width: 75px;
+    background-image: url(https://picsum.photos/200);
+    /* background-position: center; */
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+  }
+
+  .grid-container {
+    text-align: center;
+  }
+
+  /* Responsive */
+  @media only screen and (max-width: 480px) {
+    .main-header {
+        flex-direction: column;
+        align-items: center;
+        /* margin-left: 50px;
+        margin-right: 50px; */
+    }
+
+    .main-logo {
+        margin-bottom: 16px;
+    }
+  }
+
+  @media only screen and (max-width: 1700px) {
+    .main-header {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 250px;
+        margin-right: 250px;
+    }
+
+    .main-logo {
+        margin-bottom: 16px;
+    }
+  }
+
+ 
